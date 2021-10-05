@@ -82,7 +82,7 @@ void applyFilterToRow(unsigned char* row, int width, int isGrayscale) {
 }
 
 void applyFilterToPixelArray(unsigned char* pixelArray, int width, int height, int isGrayscale) {
-  int padding = 0;
+  //int padding = 0;
   printf("TODO: compute the required amount of padding from the image width");
 
 #ifdef DEBUG
@@ -93,7 +93,7 @@ void applyFilterToPixelArray(unsigned char* pixelArray, int width, int height, i
 }
 
 void parseHeaderAndApplyFilter(unsigned char* bmpFileAsBytes, int isGrayscale) {
-  int offsetFirstBytePixelArray = 0;
+  //int offsetFirstBytePixelArray = 0;
   int width = 0;
   int height = 0;
   unsigned char* pixelArray = NULL;
